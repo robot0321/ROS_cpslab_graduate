@@ -32,7 +32,7 @@ Gmap::~Gmap(){
 void Gmap::load_map(int num_map){
 	switch(num_map){
 	case 1:
-		grid = 0.5;
+		grid = 0.1;
 		glen = 1;
 		int a[2] = { 1,2 };
 		x_rng = {-10, 10};
